@@ -15,7 +15,7 @@ agent
         {
             steps
             {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/NirmalKumaran94/SonarQube.git']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/NirmalKumaran94/Maven.git']])
             }
         }
         stage('Maven Build')
